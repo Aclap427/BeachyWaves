@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.Beach {
+  background-image: url("https://i.imgur.com/UkvJf2B.jpg?1");
+  width: 2000px;
+  height: 1000px;
+  font-family: 'Caveat', cursive;
+
+}
