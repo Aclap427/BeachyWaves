@@ -7,8 +7,9 @@ function NavBar() {
             <ul id="Nav">
                 <li>About &nbsp; | &nbsp; </li>
                 <li>Stylists &nbsp; | &nbsp; </li>
-                <li>Prices &nbsp; | &nbsp;</li>
-                <li>Glam Wall</li>
+                <li>Services  &nbsp; | &nbsp;</li>
+                <li>Glam Wall &nbsp; | &nbsp; </li>
+                <li>Contact</li>
             </ul>
         </>
     )

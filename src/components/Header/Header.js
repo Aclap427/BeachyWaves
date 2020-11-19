@@ -4,12 +4,12 @@ import './Header.css';
 
 function Header() {
     return (
-        <>
-            <h1>Beachy Waves</h1>
-            <h3> Salon </h3>
-            <h5> Long Beach, CA </h5>
+        <div id="header">
+            <h1>Beachy Waves Hair Salon</h1>
+       
+            <p id="city"> Long Beach, CA </p>
 
-        </>
+        </div>
     )
 }
 export default Header;

@@ -1,13 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap');
+
+#header {
+    background-color: rgb(248, 236, 225);
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+
 h1 {
     text-align: center;
-    font-family: 'Monoton';
-    src: url ("https://fonts.google.com/specimen/Monoton?selection.family=Caveat|Major+Mono+Display|Monoton|Syncopate");
+    font-family: 'Didot';
+    margin-bottom: 0;
+    background: 50% 100% / 90% 80% no-repeat
+              radial-gradient(ellipse at bottom, rgb(216, 108, 126), transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgba(170, 228, 230, 0.534);
+    font-size: 8vh;
+    
+        -webkit-animation: glowing 1700ms infinite;
+        -moz-animation: glowing 1700ms infinite;
+        -o-animation: glowing 1700ms infinite;
+        animation: glowing 2200ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          
+        }
+        50% {
+          background-color: #21c7ed;
+          
+        }
+        100% {
+          background-color: #0091b2;
+         
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          
+        }
+        50% {
+          background-color: #21c7ed;
+          
+        }
+        100% {
+          background-color: #0091b2;
+      
+        }
+    
 }
 
 h3 {
     text-align: center;
+    font-family: 'Caveat', cursive;
+
 }
 
-h5 {
+#city {
     text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin-top: 0;
+    padding-top: 0;
+
 }
