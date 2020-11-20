@@ -1,12 +1,12 @@
 #Nav {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    background-color: rgba(209, 131, 142, 0.733);
+    justify-content: space-between;
+    
+    background-color: rgba(209, 131, 142, 0.014);
     width: 100%;
     font-family: 'Didot';
     padding: 5px;
-
-    position: fixed;
-    top: 22%;
+    
+    
 }
