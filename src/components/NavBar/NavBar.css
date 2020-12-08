@@ -2,11 +2,9 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    
     background-color: rgba(209, 131, 142, 0.014);
     width: 100%;
     font-family: 'Didot';
     padding: 5px;
-    
-    
 }
+

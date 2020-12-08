@@ -2,8 +2,10 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
-
+const nodemailer = require('nodemailer')
 const app = express();
+const bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({ extended: true }))
 
 
 
@@ -19,7 +21,7 @@ app.get('/*', function (req, res) {
 });
 
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 app.listen(port, function () {
     console.log(`Express app running on port ${port}`)

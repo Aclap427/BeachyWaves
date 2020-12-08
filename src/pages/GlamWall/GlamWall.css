@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+
+#glam {
+    text-align: center;
+    display: grid;
+
+}
+
+.square {
+    height: 60vh;
+    width: 50vh;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#glamTitle {
+    font-size: 3rem;
+    color: pink;
+    font-family: 'Mr Dafoe', cursive;
+    color: #f395ad ;
+  transform:rotate(-10deg);
+  -ms-transform:rotate(-10deg); /* IE 9 */
+  -webkit-transform:rotate(-10deg); /* Safari and Chrome */
+  -webkit-text-stroke: 1px #fc4a85;
+  -webkit-filter: drop-shadow(2px 2px 20px #f00869);
+  padding: 50px;
+  
+
+
+}
