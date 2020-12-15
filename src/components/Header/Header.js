@@ -9,7 +9,7 @@ function Header() {
             <h1>Beachy Waves Hair Salon</h1>
        
             <p id="city"> Long Beach, CA </p>
-        <div id="contain"><div id="nav"><NavBar /></div></div>
+       <div id="nav"><NavBar /></div>
         </div>
     )
 }

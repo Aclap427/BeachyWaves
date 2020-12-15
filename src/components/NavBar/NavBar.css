@@ -1,10 +1,44 @@
-#Nav {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(209, 131, 142, 0.014);
-    width: 100%;
-    font-family: 'Didot';
-    padding: 5px;
+.dropdown {
+    position: relative;
+    left: 0;
+    top: 0;
 }
 
+.navBtn {
+    width: 8vh;
+    height: 8vh;
+    background: none;   
+}
+
+
+button {
+    border: none;
+    background: none;
+}
+
+
+.dropdown-content {
+    font-family: 'Caveat', cursive;
+    font-size: 3vh;
+    display: none;
+    position: absolute;
+    right: 10%;
+    background-color: rgba(197, 169, 179, 0.986);
+    min-width: 100px;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: black;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: rgb(168, 84, 109);
+}
