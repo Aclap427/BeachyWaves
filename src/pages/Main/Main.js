@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Header from '../../components/Header/Header.js';
-import Footer from '../../components/Footer/Footer.js';
+//import Footer from '../../components/Footer/Footer.js';
 import './Main.css';
 
 /*-----------------Pages----------*/
 import Home from '../Home/Home';
-import About from '../About/About';
+import About from '../AboutPage/AboutPage';
 import Stylists from '../Stylists/Stylists';
 import Services from '../Services/Services';
 import GlamWall from '../GlamWall/GlamWall';
@@ -15,7 +15,7 @@ import Contact from '../Contact/Contact';
 
 function App() {
   return (
-  <>
+  <div id="main">
       <Header />
 
       <div>
@@ -47,9 +47,8 @@ function App() {
         </Switch>
     </div>
    
-   
-      <Footer />
-  </>
+    
+  </div>
   );
 }
 

@@ -1,0 +1,34 @@
+
+#aboutTitle {
+    font-size: 3rem;
+    color: rgb(12, 9, 9);
+    font-family: 'Passion One', cursive;
+    color: #030202 ;
+    -webkit-text-stroke: 1px #fc4a85;
+    -webkit-filter: drop-shadow(2px 2px 20px #f09caa);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#owner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    margin-bottom: 20px;   
+}
+
+#sideInfo {
+    text-align: center;
+}
+
+#sideText {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
