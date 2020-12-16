@@ -4,7 +4,10 @@ import './GlamWall.css';
 function GlamWall() {
     return (
         <div id="glam">
-            <p id="glamTitle"> Glam Wall </p>
+            <div id="glamTitle">
+                <p>Glam Wall<br/>
+                <span>-YOU LOOK BOMB-</span></p>
+            </div>
             <div id="glamSquare">
                 <img src="https://i.imgur.com/SwLh0dw.jpg?1" alt="brunette"  className="square"></img>
                 <img src="https://i.imgur.com/Hz6aldN.jpg?1" alt="blonde" className="square"></img>

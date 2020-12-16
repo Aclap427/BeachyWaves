@@ -5,11 +5,16 @@ import About from '../../components/About/About';
 function AboutPage() {
     return (
         <>
+            
+            <div id="aboutBackground">
+                <img src="https://i.imgur.com/Sd0PCAs.jpg?1" alt="background"></img>
+            </div>
+
             <div id="aboutTitle">
                 <p>About Beachy Waves</p>
             </div>
 
-            <About />
+           
 
 
             <div id="sideInfo">
@@ -20,7 +25,7 @@ function AboutPage() {
                     Long Beach, CA 90802 <br />
                     (626) 825 - 9711
                 </p>
-
+            <About />
             </div>
         </>
 

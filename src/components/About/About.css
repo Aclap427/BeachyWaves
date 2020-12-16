@@ -1,12 +1,10 @@
 #mainAboutSection {
-    background-image: url("https://i.imgur.com/Sd0PCAs.jpg?1");
     width: 60%;
-    float: right;
     border: black;
     margin-top: 30px;
-    font-family: 'Didot';
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
     position: relative;
-
 }
 
 #aboutInfo {
@@ -14,21 +12,41 @@
 }
 
 #salonImages {
-    position: absolute;
-    left: 5%;
-
+    text-align: center;
 }
+
 .salonImg {
-    width: 300px;
-    height: 250px;
     padding: 10px;
     border-radius: 20px;
     -webkit-filter: drop-shadow(2px 2px 20px #802030);
-
-    
+    width: 50%;
 }
 
 #socialMediaDiv {
     padding: 10px 0 80px 80px;
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 600px) {
+  #mainAboutSection {
+    width: 100%;
+}
+
+#socialMediaDiv {
+    padding: 10px 0 80px 20px;
+}
+
+.salonImg {
+    width: 70%;
+}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+.salonImg {
+    width: 70%; 
+}
 
 }

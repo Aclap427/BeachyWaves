@@ -7,7 +7,8 @@
 .navBtn {
     width: 8vh;
     height: 8vh;
-    background: none;   
+    background: none; 
+    border-radius: 5px;  
 }
 
 
@@ -24,7 +25,7 @@ button {
     position: absolute;
     right: 10%;
     background-color: rgba(197, 169, 179, 0.986);
-    min-width: 100px;
+    min-width: 120px;
     box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -41,4 +42,12 @@ button {
 
 .link:hover {
     color: rgb(168, 84, 109);
+}
+
+@media only screen and (max-width: 600px) {
+  .navBtn {
+    width: 7vw;
+    height: 6vh;
+    
+  }
 }
