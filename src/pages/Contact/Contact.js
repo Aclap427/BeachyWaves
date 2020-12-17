@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Contact() {
     return (
         <div id="contact">
+            <div id="contactBackground">
+                <img src="https://i.imgur.com/ld5lOv2.jpg?1" alt="background"></img>
+            </div>
             <p> Contact Page</p>
      
 

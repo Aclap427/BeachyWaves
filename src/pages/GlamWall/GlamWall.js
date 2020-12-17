@@ -4,6 +4,9 @@ import './GlamWall.css';
 function GlamWall() {
     return (
         <div id="glam">
+            <div id="glamBackground">
+                <img src="https://i.imgur.com/UkvJf2B.jpg?1" alt="background"></img>
+            </div>
             <div id="glamTitle">
                 <p>Glam Wall<br/>
                 <span>-YOU LOOK BOMB-</span></p>
