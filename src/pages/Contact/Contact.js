@@ -10,10 +10,10 @@ function Contact() {
             <div id="contactBackground">
                 <img src="https://i.imgur.com/ld5lOv2.jpg?1" alt="background"></img>
             </div>
-            <p> Contact Page</p>
-     
 
-            <ContactForm />
+
+            <p id="contactTitle"> Contact Page</p>
+                 <ContactForm />
         </div>
     )
 };

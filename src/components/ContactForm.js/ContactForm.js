@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Form, Button } from 'react-bootstrap';
+import './ContactForm.css';
 
 const ContactForm = () => {
     const [state, setState] = useState({
         name: '',
         email: '',
+        phone: '',
         subject: '',
         message: ''
     });
@@ -21,6 +23,7 @@ const ContactForm = () => {
                 setState({
                     name: '',
                     email: '',
+                    phone: '',
                     subject: '',
                     message: ''
                 });
@@ -66,7 +69,17 @@ const ContactForm = () => {
                         type="text"
                         name="email"
                         value={state.email}
-                        placeholder="Enter your email"
+                        placeholder="name@blank.com"
+                        onChange={onInputChange}
+                    />
+                </Form.Group>
+                <Form.Group controlId="phone">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control
+                        type="text"
+                        name="phone"
+                        value={state.phone}
+                        placeholder="( 000 ) 000 - 0000 "
                         onChange={onInputChange}
                     />
                 </Form.Group>
@@ -87,11 +100,11 @@ const ContactForm = () => {
                         name="message"
                         value={state.message}
                         rows="3"
-                        placeholder="Enter your message"
+                        placeholder="Enter your message here"
                         onChange={onInputChange}
                     />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button id="contactButton" type="submit">
                     Submit
         </Button>
             </form>

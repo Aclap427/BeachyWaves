@@ -1,0 +1,18 @@
+
+
+Form {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#contactButton {
+    color: rgb(151, 116, 116);
+    border: solid thin rgb(161, 145, 145);
+    font-size: 20px;
+    width: 30%;
+    background-color: black;
+    margin-left: 35%;
+    margin-right:35%;
+}

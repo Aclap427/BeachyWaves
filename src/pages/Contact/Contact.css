@@ -17,3 +17,23 @@
   min-height: 50%;
   z-index: -1;
 }
+
+#contact {
+    background-color: rgba(201, 109, 140, 0.61);
+    width: 70%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+#contactTitle {
+    font-size: 3rem;
+    color: rgb(12, 9, 9);
+    font-family: 'Didot';
+    color: #030202 ;
+    -webkit-text-stroke: 1px #803951;
+    -webkit-filter: drop-shadow(2px 2px 20px #70b2b4);
+    text-align: center;
+    margin-top: 0;
+    
+}
